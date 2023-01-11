@@ -44,7 +44,7 @@
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #6070ff;
+    color: #172B4D;
   }
 
   p.description {
@@ -102,6 +102,7 @@
     left: 0;
     margin: 10px 0;
     width: 100%;
+    display: flex;
   }
 
   section.main-section {
