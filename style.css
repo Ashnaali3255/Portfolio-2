@@ -108,6 +108,9 @@
   section.main-section {
     margin: 114px 24px;
   }
+  .main-section{
+    display: flex;
+  }
 }
 
 /* @media only screen and (min-width: 768px) {
