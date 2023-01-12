@@ -5,7 +5,6 @@
   * {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    background: #e5e5e5;
   }
 
   .name {
@@ -114,6 +113,7 @@
     width: 100%;
     display: flex;
     border-bottom-left-radius: 62px;
+    border-bottom: 2px solid #e5e5e5;
   }
 
   section.main-section {
