@@ -110,11 +110,11 @@
   }
 }
 
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   nav img {
     font-size: 15px;
     width: 24px;
     height: 24px;
     margin: 0 10%;
   }
-} */
+}
