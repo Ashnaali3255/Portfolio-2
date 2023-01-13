@@ -134,7 +134,6 @@ h2 {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 114px;
-  margin-bottom: 88px;
 }
 
 .link {
@@ -203,6 +202,22 @@ button {
   font-size: 17px;
   color: #396df2;
   margin: 40px 16px;
+}
+
+button:hover {
+  background-color: rgb(70, 2, 70);
+  color: white;
+}
+
+button:active {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+button:disabled {
+  border: 1px solid gray;
+  color: gray;
 }
 
 .about {
