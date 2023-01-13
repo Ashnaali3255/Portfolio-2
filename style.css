@@ -205,19 +205,13 @@ button {
 }
 
 button:hover {
-  background-color: rgb(70, 2, 70);
-  color: white;
+  color: #fff;
+  background-color: #6070ff;
 }
 
 button:active {
-  border: 1px solid blue;
-  background-color: blue;
-  color: white;
-}
-
-button:disabled {
-  border: 1px solid gray;
-  color: gray;
+  color: #fff;
+  background-color: #2230d2;
 }
 
 .about {
