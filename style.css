@@ -122,7 +122,7 @@ h2 {
 
 .projects {
   margin: 0 24px;
-  padding: 20px 0;
+  padding: 0;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -133,7 +133,7 @@ h2 {
   flex-direction: column;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin-top: 114px;
+  margin-top: 88px;
 }
 
 .link {
