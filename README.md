@@ -21,7 +21,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Setup and Mobile First] <a name="about-project"></a>
-Create a HomePage for Portfolio, which can help to easy explorate profiles for Mobile Version.
+Create a Portfolio, which can help to easy explorate profiles for Mobile Version.
 
 ## 🛠 Built With <a name="built-with">
 #Tech Stack
