@@ -55,7 +55,7 @@ p.description {
   width: 300px;
 }
 
-h3{
+h3 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -67,7 +67,6 @@ h3{
   text-align: center;
   margin: 12px;
 }
- 
 
 ul.links {
   padding: 0;
@@ -412,15 +411,19 @@ hr {
   margin-left: 24px;
   margin-right: 24px;
 }
+
 .desktop-projects {
   display: none;
 }
-.about-desktop{
+
+.about-desktop {
   display: none;
 }
-.contact-desktop{
+
+.contact-desktop {
   display: none;
-} 
+}
+
 .menu-icon {
   display: flex;
 }
@@ -428,6 +431,7 @@ hr {
 .desktop-link {
   display: none;
 }
+
 @media screen and (min-width: 768px) {
   body {
     background: #e5e5e5;
