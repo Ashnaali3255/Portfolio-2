@@ -4,12 +4,19 @@
 * {
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 75%;
 }
 
 header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 header a {
@@ -48,8 +55,7 @@ p.description {
   width: 300px;
 }
 
-h3,
-.connect {
+h3{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -61,10 +67,7 @@ h3,
   text-align: center;
   margin: 12px;
 }
-
-.connect {
-  margin: 0;
-}
+ 
 
 ul.links {
   padding: 0;
@@ -408,4 +411,354 @@ hr {
   color: #ebebff;
   margin-left: 24px;
   margin-right: 24px;
+}
+.desktop-projects {
+  display: none;
+}
+.about-desktop{
+  display: none;
+}
+.contact-desktop{
+  display: none;
+} 
+.menu-icon {
+  display: flex;
+}
+
+.desktop-link {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: #e5e5e5;
+  }
+
+  /* Desktop Nav Bar */
+
+  .menu-icon {
+    display: none;
+  }
+
+  header {
+    background: #fff;
+  }
+
+  .desktop-ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 154px;
+    gap: 10%;
+  }
+
+  .desktop-ul .desktop-link {
+    width: 63px;
+    padding: 32px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    background-image: none;
+    margin-top: -4%;
+  }
+
+  section.main-section {
+    padding-bottom: 255.04px;
+    margin: 10px 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 100px;
+    background: url("./headerbg.svg");
+    background-repeat: no-repeat;
+    background-position: 60% 20%;
+  }
+
+  h1.name {
+    width: 920px;
+    height: 122px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    margin-top: 359px;
+  }
+
+  p.description {
+    width: 920px;
+    height: 98px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin-top: 12px;
+  }
+
+  .connect {
+    width: 117px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #7f8cff;
+    margin-left: 43%;
+    margin-right: 90%;
+    margin-top: 0%;
+  }
+
+  ul.links {
+    padding: 0;
+    gap: 16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 117px;
+    height: 24px;
+    margin-right: 1060px;
+    margin-left: 260px;
+    margin-top: 14px;
+  }
+
+  nav a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    width: 250px;
+    height: 20px;
+    color: #6070ff;
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+  }
+
+  /* Desktop Projects Area */
+  .projects {
+    display: none;
+  }
+
+  .desktop-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 142px;
+    margin-left: 149px;
+  }
+
+  .desktop-projects .desktop-project {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    margin-bottom: 142px;
+    width: 100%;
+  }
+
+  .desktop-project-right {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    margin-bottom: 142px;
+    width: 100%;
+  }
+
+  .desktop-projects .desktop-project .proj-image {
+    padding: 24px 0 24px 24px;
+  }
+
+  .desktop-project-right .desktop-project .proj-image {
+    padding: 24px 22px 24px 0;
+  }
+
+  .desktop-project-right .proj-desc {
+    padding: 48px 0 0 48px;
+  }
+
+  .desktop-projects .desktop-project .proj-desc {
+    padding: 48px 46px 0 46px;
+  }
+
+  .desktop-project-right .proj-desc .para {
+    width: 496px;
+    height: 70px;
+  }
+
+  .desktop-projects .desktop-project .proj-desc .para {
+    width: 496px !important;
+    height: 50px !important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .about-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background: #fff;
+    border-top-right-radius: 150px;
+  }
+
+  .content-desktop {
+    width: 447px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .desktop-social {
+    margin-left: 49px;
+    width: 447px;
+    height: 114px;
+  }
+
+  .connect-desktop {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    margin-left: 16px;
+  }
+
+  .link2-desktop {
+    margin-left: 3px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .link2-desktop li {
+    padding: 4px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .desktop-languages {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .desktop-languages .item {
+    width: 122px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .desktop-frameworks {
+    margin-top: 36px;
+  }
+
+  .desktop-frameworks .seperator {
+    margin-bottom: 24px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .contact-desktop {
+    background: #6070ff url('./images/desktop/contact.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 3%;
+    width: 100%;
+    margin-top: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 150px;
+  }
+
+  .contact1-desktop {
+    width: 569px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact1-desktop .graph {
+    width: 569px !important;
+    height: 102px !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+
+  .touch-desktop {
+    align-self: center;
+    margin-top: 0;
+  }
+
+  .contact-desktop .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-desktop .text-desktop {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    width: 327px;
+    margin-left: 24px;
+  }
+
+  .contact-desktop .message-desktop {
+    width: 327px;
+    height: 170px;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 2px;
+    margin-left: 24px;
+  }
+
+  .footer-underline {
+    display: none;
+  }
 }
