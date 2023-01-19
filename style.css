@@ -432,7 +432,6 @@ hr {
   display: none;
 }
 
-
 @media screen and (min-width: 768px) {
   body {
     background: #e5e5e5;
@@ -565,10 +564,10 @@ hr {
   }
 
   /* Desktop Projects Area */
-   .project{
+  .project {
     display: none;
-   }
- 
+  }
+
   .desktop-projects {
     display: flex;
     flex-direction: column;
@@ -599,7 +598,8 @@ hr {
     width: 100%;
     margin-right: 18%;
   }
- .desktop-projects .desktop-project .proj-image {
+
+  .desktop-projects .desktop-project .proj-image {
     padding: 24px 0 24px 24px;
   }
 
@@ -627,7 +627,7 @@ hr {
     font-size: 16px;
     line-height: 24px;
   }
- 
+
   .about {
     display: none;
   }
@@ -762,7 +762,7 @@ hr {
     border: 1px solid #cfd8dc;
     border-radius: 2px;
     margin-left: 24px;
-  } 
+  }
 
   .footer-underline {
     display: none;
