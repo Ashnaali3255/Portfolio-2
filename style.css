@@ -767,4 +767,16 @@ hr {
   .footer-underline {
     display: none;
   }
+  h1.name{
+     white-space: nowrap;
+     animation: typing 3.5s steps(30, end),blink-ext .5s step-end infinite;
+}
+@keyframes typing{
+         from{
+          width:0;
+         }
+         to{
+          width: 100%;
+         }
+}
 }
