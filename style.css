@@ -506,6 +506,18 @@ hr {
     letter-spacing: 0.37px;
     color: #091e42;
     margin-top: 200px;
+    white-space: nowrap;
+    animation: typing 3.5s steps(30, end), blink-ext 0.5s step-end infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 100%;
+    }
   }
 
   p.description {
@@ -767,16 +779,4 @@ hr {
   .footer-underline {
     display: none;
   }
-  h1.name{
-     white-space: nowrap;
-     animation: typing 3.5s steps(30, end),blink-ext .5s step-end infinite;
-}
-@keyframes typing{
-         from{
-          width:0;
-         }
-         to{
-          width: 100%;
-         }
-}
 }
