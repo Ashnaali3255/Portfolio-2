@@ -55,6 +55,19 @@ header a {
   font-size: 18px;
 }
 
+.menu-icon a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 4%;
+}
+
+.menu-icon .close a {
+  font-weight: lighter;
+  font-size: 22px;
+}
+
 /* -----------------Menu changes done------------------- */
 
  nav img {
