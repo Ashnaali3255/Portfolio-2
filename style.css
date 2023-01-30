@@ -17,7 +17,53 @@ header nav {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  gap: 25%;
 }
+
+/* Menu changes */
+.menu-icon {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #6070fff0;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  display: none;
+}
+
+.item-closed {
+  margin-left: 280px;
+}
+
+.menu-icon .close {
+  padding-top: 50px;
+  text-align: right;
+  padding-right: 38px;
+  font-weight: lighter;
+}
+
+.mobile-nav {
+  padding: 15px 28px;
+}
+
+.menu-icon a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 4%;
+}
+
+.menu-icon .close a {
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+/* -----------------Menu changes done------------------- */
 
 header a {
   margin: 0 12px;
@@ -440,6 +486,10 @@ hr {
   /* Desktop Nav Bar */
 
   .menu-icon {
+    display: none;
+  }
+
+  .item-menu {
     display: none;
   }
 
