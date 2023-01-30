@@ -50,6 +50,7 @@ header nav {
   padding: 15px 28px;
 }
 
+<<<<<<< HEAD
 .menu-icon a {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
@@ -62,6 +63,8 @@ header nav {
   font-size: 22px;
 }
 
+=======
+>>>>>>> cba1235e02cdf758203678ce6f1b6f6e90b908ac
 /* -----------------Menu changes done------------------- */
 
 header a {
@@ -467,10 +470,6 @@ hr {
 
 .contact-desktop {
   display: none;
-}
-
-.menu-icon {
-  display: flex;
 }
 
 .desktop-link {
