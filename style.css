@@ -55,25 +55,14 @@ header a {
   font-size: 18px;
 }
 
-.menu-icon a {
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.menu-icon .close a {
-  font-weight: lighter;
-  font-size: 22px;
-}
 /* -----------------Menu changes done------------------- */
 
-/* nav img {
+ nav img {
   font-size: 15px;
   width: 24px;
   height: 20px;
   margin: 10px 24px;
-} */
+} 
 
 h1.name {
   width: 327px;
