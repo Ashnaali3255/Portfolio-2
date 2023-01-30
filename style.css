@@ -50,6 +50,23 @@ header nav {
   padding: 15px 28px;
 }
 
+header a {
+  margin: 0 12px;
+  font-size: 18px;
+}
+
+nav a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  text-decoration: none;
+  width: 250px;
+  height: 20px;
+  color: #6070ff;
+  display: flex;
+}
+
 .menu-icon a {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
@@ -62,12 +79,8 @@ header nav {
   font-weight: lighter;
   font-size: 22px;
 }
-/* -----------------Menu changes done------------------- */
 
-header a {
-  margin: 0 12px;
-  font-size: 18px;
-}
+/* -----------------Menu changes done------------------- */
 
 nav img {
   font-size: 15px;
@@ -128,18 +141,6 @@ ul.links {
 
 .link2 {
   margin-top: 50px;
-}
-
-nav a {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 20px;
-  text-decoration: none;
-  width: 250px;
-  height: 20px;
-  color: #6070ff;
-  display: flex;
 }
 
 section.main-section {
