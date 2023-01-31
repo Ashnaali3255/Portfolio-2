@@ -32,7 +32,7 @@ header nav {
   mix-blend-mode: multiply;
   backdrop-filter: blur(10px);
   text-align: left;
-  /* display: none; */
+  display: none;
 }
 
 .item-closed {
