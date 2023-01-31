@@ -595,11 +595,7 @@ hr {
   color: #67798e;
   font-size: 24px;
 }
-@media screen and (max-width: 768px) {
-  .proj-img {
-    display: none;
-  }
-}
+
 /* ------------------Pop-Up-finish--------------------------- */
 @media screen and (min-width: 768px) {
   body {
