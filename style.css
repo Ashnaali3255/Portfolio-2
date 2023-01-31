@@ -471,6 +471,7 @@ hr {
 .desktop-link {
   display: none;
 }
+
 /* Pop-Up */
 .model_content {
   width: 95%;
@@ -601,6 +602,7 @@ hr {
     display: none;
   }
 }
+
 /* ------------------Pop-Up-finish--------------------------- */
 @media screen and (min-width: 768px) {
   body {
@@ -744,6 +746,7 @@ hr {
 
   .desktop-projects {
     display: flex;
+
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
@@ -942,8 +945,8 @@ hr {
     display: none;
   }
 
-   /* Pop-Up */
-   .model_content {
+  /* Pop-Up */
+  .model_content {
     width: 80%;
     height: calc(100vh - 20px);
     display: flex;
@@ -1092,5 +1095,6 @@ hr {
   .container {
     display: flex;
   }
+
   /* -------------------Pop-up-finish------------------ */
 }
