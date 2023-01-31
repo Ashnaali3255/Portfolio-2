@@ -32,7 +32,7 @@ header nav {
   mix-blend-mode: multiply;
   backdrop-filter: blur(10px);
   text-align: left;
-  display: none;
+  /* display: none; */
 }
 
 .item-closed {
@@ -61,8 +61,6 @@ nav a {
   font-size: 24px;
   line-height: 20px;
   text-decoration: none;
-  width: 250px;
-  height: 20px;
   color: #6070ff;
   display: flex;
 }
