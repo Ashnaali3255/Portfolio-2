@@ -457,13 +457,6 @@ textarea {
   background: #fff;
 }
 
-#error-message {
-  position: relative;
-  top: -123px;
-  border-radius: 8px;
-  font-size: 15px;
-}
-
 .desktop-projects {
   display: none;
 }
