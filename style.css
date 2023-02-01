@@ -609,7 +609,8 @@ textarea {
   .buttons {
     display: flex;
   }
-/* ------------------Pop-Up-finish--------------------------- */
+
+  /* ------------------Pop-Up-finish--------------------------- */
   .tech_list {
     width: 90%;
     display: flex;
@@ -911,7 +912,8 @@ textarea {
   .desktop-frameworks .seperator {
     margin-bottom: 24px;
   }
-  /* Contact Form Desktop*/
+
+  /* Contact Form Desktop */
   .contact {
     background: #6070ff url('./images/desktop/contact.svg');
     background-repeat: no-repeat;
