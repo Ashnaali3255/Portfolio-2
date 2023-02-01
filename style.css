@@ -488,7 +488,7 @@ hr {
 
 .model_header {
   display: flex;
-  height: 20px;
+  height: 35px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -600,6 +600,10 @@ hr {
 @media screen and (max-width: 768px) {
   .proj-img {
     display: none;
+  }
+
+  .buttons {
+    display: flex;
   }
 }
 
