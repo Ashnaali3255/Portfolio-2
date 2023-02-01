@@ -472,10 +472,6 @@ textarea {
   display: none;
 }
 
-.contact-desktop {
-  display: none;
-}
-
 .desktop-link {
   display: none;
 }
@@ -784,8 +780,6 @@ textarea {
 
   .desktop-projects {
     display: flex;
-
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     margin-top: 142px;
