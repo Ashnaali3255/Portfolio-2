@@ -87,29 +87,6 @@
         </ul>
       </div>
     </section>
-    <section class="contact" id="Contact">
-      <div class="contact1">
-        <h2 class="heading">Contact me</h2>
-        <p class="graph">If you have an application you are interested in developing, a feature that you need built or
-          a project that
-          needs coding. I'd love to help with it </p>
-        <form class="form" action="https://formspree.io/f/mpznvvba" method="post">
-          <div>
-            <input class="text" type="text" name="myName" placeholder="Yeremias" maxlength="30" required>
-          </div><br>
-          <div>
-            <input class="text" type="email" name="myEmail" placeholder="natajayanj14@gmail.com" required>
-          </div><br>
-          <div>
-            <textarea class="message" name="myText" maxlength="500" cols="30" rows="10"
-              placeholder="Write your message here" required></textarea>
-          </div>
-          <br>
-          <button type="submit" class="touch">Get in Touch</button>
-        </form>
-        <img src="./underline.svg" alt="" class="footer-underline">
-      </div>
-    </section>
     <section class="about-desktop" id="About">
       <div class="content-desktop">
         <h2>About<br>Myself</h2>
@@ -151,32 +128,34 @@
         </ul>
       </div>
     </section>
-    <section class="contact-desktop" id="Contact">
-      <div class="contact1-desktop">
+    <section class="contact" id="Contact">
+      <div class="contact1">
         <h2 class="heading">Contact me</h2>
         <p class="graph">If you have an application you are interested in developing, a feature that you need built or
           a project that
           needs coding. I'd love to help with it </p>
         <form class="form" action="https://formspree.io/f/mpznvvba" method="post">
           <div>
-            <input class="text-desktop" type="text" name="myName" placeholder="Yeremias" maxlength="30" required>
+            <input class="myform" type="text" name="name" placeholder="Yeremias" maxlength="30" required>
           </div><br>
           <div>
-            <input class="text-desktop" type="email" name="myEmail" placeholder="natajayanj14@gmail.com" required>
+            <input class="myform" type="email" id="email" name="email" placeholder="natajayanj14@gmail.com" required>
           </div><br>
           <div>
-            <textarea class="message-desktop" name="myText" maxlength="500" cols="30" rows="10"
+            <textarea class="message" name="myText" maxlength="500" cols="30" rows="10"
               placeholder="Write your message here" required></textarea>
           </div>
           <br>
-          <button type="submit" class="touch-desktop">Get in Touch</button>
+          <button type="submit" class="touch" id="form-button">Get in Touch</button>
+          <span id="error-message"></span>
         </form>
-        <img src="./underline.svg" alt="" class="footer-underline">
+        <img src="./underline.svg" alt="image" class="footer-underline">
       </div>
     </section>
   </main>
   <script src="js/main.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/validation.js"></script>
 </body>
 
 </html>
