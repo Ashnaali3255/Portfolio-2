@@ -1,4 +1,4 @@
-const formButton = document.querySelector('#form-button');
+const formButton = document.querySelector('#button');
 
 function validate() {
   const text = document.getElementById('email').value;
